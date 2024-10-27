@@ -1,0 +1,140 @@
+.menu {
+  margin-bottom: 20px;
+}
+.link {
+  display: block;
+  color: #4e75ff;
+}
+
+body {
+  width: 355px;
+  padding-left: 156px;
+  padding-top: 36px;
+  font-family: 'Montserrat', sans-serif;
+  color: #2e2f42;
+  letter-spacing: 0.04em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 40px;
+  column-gap: 8px;
+}
+
+#datetime-picker {
+  box-sizing: border-box;
+  width: 272px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  background: #fff;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 8px 16px;
+  outline: none;
+}
+#datetime-picker:hover {
+  border-color: #000;
+}
+
+#datetime-picker:active {
+  border-color: #4e75ff;
+}
+#datetime-picker:disabled {
+  border-color: #808080;
+  color: #808080;
+}
+
+button {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  text-align: center;
+}
+
+button:hover {
+  background: #6c8cff;
+}
+
+button:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+.timer {
+  width: 346px;
+  height: 72px;
+  display: flex;
+  gap: 24px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.value {
+  font-size: 40px;
+  line-height: 120%;
+}
+.label {
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+}
+.icon-svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.form {
+  max-width: 360px;
+  margin-bottom: 100px;
+}
+
+input[type='number'] {
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  max-width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  outline: none;
+}
+input[type='number']:hover {
+  border-color: #000;
+}
+
+input[type='number']:focus-within {
+  border-color: #4e75ff;
+}
+.form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+fieldset {
+  margin-bottom: 24px;
+  padding: 24px 48px 8px;
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  border-radius: 4px;
+  border-color: #808080;
+  border-width: 1px;
+}
+
+fieldset:hover {
+  border-color: #000;
+}
+
+
